@@ -2,6 +2,23 @@
 
 All notable changes to Creator Asset Studio releases will be documented here.
 
+## [0.1.1] - 2026-03-12
+
+### Added
+
+- Adjustable `Balanced`, `Settings`, and `Browser` workspace modes in Export Studio
+- In-app credits with the public repository link
+- Refreshed branded application visuals and updated release screenshots
+
+### Changed
+
+- Export Studio was redesigned to keep source and export controls accessible on normal desktop window sizes
+- The media browser table now prioritizes useful metadata columns instead of a decorative preview tile
+
+### Fixed
+
+- Resolved a scan-start issue that could leave the queue progress at `0%` even though the scan worker never actually launched
+
 ## [0.1.0] - 2026-03-12
 
 ### Added

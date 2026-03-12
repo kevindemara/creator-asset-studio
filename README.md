@@ -8,12 +8,22 @@ It can scan a channel, playlist, or single video, then export audio, video, thum
 
 This public repository is the download and product-info home for the app. The source code is kept in a private repository.
 
+Current public release: `v0.1.1`
+
 ## Download
 
 - [Download the latest Windows installer](https://github.com/kevindemara/creator-asset-studio/releases/latest/download/CreatorAssetStudio-Setup.exe)
 - [Browse all releases](https://github.com/kevindemara/creator-asset-studio/releases)
 
 The installer is self-contained. End users do not need to install Python or `ffmpeg` separately.
+
+## What's New In v0.1.1
+
+- Refined Export Studio layout for better usability on standard desktop window sizes
+- Adjustable workspace focus modes for settings vs. media browser
+- Cleaner media browser table with the decorative preview column removed
+- Updated branding, screenshots, and in-app credits
+- Scan-start fix so queue scans no longer appear stuck at `0%`
 
 ## Features
 

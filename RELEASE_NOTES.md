@@ -1,16 +1,16 @@
 # Release Notes
 
-## v0.1.0
+## v0.1.1
 
-Creator Asset Studio launches as a Windows desktop utility for creators who want a clean local workflow for exporting reusable media assets from YouTube content they own or control.
+Creator Asset Studio `v0.1.1` sharpens the desktop workflow with a more usable Export Studio layout, cleaner table real estate, refreshed branding, and a fix for the scan-start regression that could leave the queue at `0%`.
 
 ### Highlights
 
-- Scan channels, playlists, or single videos before exporting
-- Export audio, video, thumbnails, descriptions, metadata, subtitles, transcripts, and chapters
-- Tag MP3 and MP4 outputs with artwork and metadata
-- Generate `manifest.json`, `manifest.csv`, and RSS-ready feed output
-- Use the Windows installer instead of managing a portable folder manually
+- More accessible Export Studio layout with adjustable workspace focus modes
+- Real app icon and compact in-app credits linked to the public repository
+- Cleaner media browser table with the non-functional preview column removed
+- Scan worker fix so source scans start and complete normally again
+- Updated Windows installer for the `v0.1.1` release
 
 ### Distribution
 
