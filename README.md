@@ -17,6 +17,13 @@ Current public release: `v0.1.1`
 
 The installer is self-contained. End users do not need to install Python or `ffmpeg` separately.
 
+Current installer checksum:
+
+```text
+CreatorAssetStudio-Setup.exe
+SHA-256: D02D9F7E896A715DF136983D7E1D01E97322FEAA0DB49E04F4F71070BA66CF03
+```
+
 ## What's New In v0.1.1
 
 - Refined Export Studio layout for better usability on standard desktop window sizes
@@ -59,6 +66,31 @@ The installer is self-contained. End users do not need to install Python or `ffm
 2. Run `CreatorAssetStudio-Setup.exe`.
 3. Follow the installer prompts.
 4. Launch Creator Asset Studio from the Start Menu or desktop shortcut.
+
+## Installation Notes For This Development Build
+
+Creator Asset Studio is currently distributed as an unsigned Windows installer.
+
+Because of that, some Windows systems may show a Microsoft Defender SmartScreen warning when you launch the installer. The message commonly appears as:
+
+- `Windows protected your PC`
+- `Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.`
+
+If you downloaded the installer from the official GitHub Releases page for this repository and want to proceed, click:
+
+- `More info`
+- `Run anyway`
+
+Some antivirus products may also block or sandbox the installer while it extracts files to the Windows temporary directory. If that happens, installation may fail with an error similar to:
+
+- `Unable to execute file in the temporary directory. Setup aborted.`
+- `Error 5: Access is denied.`
+
+If you encounter this, the safest workaround is to temporarily allowlist the installer in your antivirus software or temporarily pause real-time protection during installation, then re-enable protection immediately afterward.
+
+Only do this if you downloaded the installer from the official release page for this project:
+
+- [Official Releases Page](https://github.com/kevindemara/creator-asset-studio/releases)
 
 ## Source Code
 

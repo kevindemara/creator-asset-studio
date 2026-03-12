@@ -17,3 +17,19 @@ Creator Asset Studio `v0.1.1` sharpens the desktop workflow with a more usable E
 - Installer file: `CreatorAssetStudio-Setup.exe`
 - Delivery channel: GitHub Releases
 - Source availability: private repository, available by request
+- SHA-256: `D02D9F7E896A715DF136983D7E1D01E97322FEAA0DB49E04F4F71070BA66CF03`
+
+### Installation Notes
+
+This release is currently distributed as an unsigned Windows installer.
+
+- Some systems may show the Microsoft Defender SmartScreen warning:
+  - `Windows protected your PC`
+  - `Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.`
+- If you downloaded the installer from the official GitHub Releases page, the usual path is:
+  - `More info`
+  - `Run anyway`
+- Some antivirus products may block setup while it extracts files to the Windows temporary directory. If that happens, installation can fail with:
+  - `Unable to execute file in the temporary directory. Setup aborted.`
+  - `Error 5: Access is denied.`
+- If needed, temporarily allowlist the installer or briefly pause real-time protection during install, then turn protection back on immediately after setup completes.
